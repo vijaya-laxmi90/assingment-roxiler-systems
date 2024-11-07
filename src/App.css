@@ -1,0 +1,114 @@
+.main-container {
+  width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(191, 211, 211);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.pointer_cursor {
+  cursor: pointer !important;
+}
+
+.mg-right-5 {
+  margin-right: 5px;
+}
+
+.mg-left-5 {
+  margin-left: 5px;
+}
+
+.row {
+  width: 90%;
+  margin: 10px 0px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  height: 100px;
+  width: 100px;
+  border: 2px solid white;
+  border-radius: 50%;
+  background-color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.row-2, .row-4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.row-3 {
+  height: 400px;
+  overflow-y: auto;
+
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border: 2px solid black;
+  border-radius: 10px;
+  color: white;
+}
+
+td, th {
+  border: 1px solid #000000;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #43423d;
+}
+
+tr:nth-child(odd) {
+  background-color: #463f29;
+}
+
+.icon-image {
+  height: 50px;
+  width: 50px;
+}
+
+.row-5 > div {
+  font-size: 30px;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.row-6 > div {
+  padding: 5px 20px;
+  background-color: rgb(228, 228, 184);
+  width: 300px;
+
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.row-6 > div > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
